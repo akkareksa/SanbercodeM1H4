@@ -1,4 +1,4 @@
-SELECT a.Title, b.Name, t.Name
+SELECT a.Title, b.Name, t.Name as track
 FROM albums a
 JOIN artists b
 	ON a.ArtistId = b.ArtistId
